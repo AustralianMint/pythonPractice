@@ -34,6 +34,20 @@ else:
     its speed!! 
     """)
     
+alien_vehicle_producer = {
+    'V330':'Doobiu$',
+    'R32Z':'WeDoSpaceshipsInc',
+    'Zoomer':'CompanyZoomz'
+}
+
+#Loop through items() list returend from dictionary
+# Saves values in vehicle and producer variables 
+for vehicle, producer in alien_vehicle_producer.items():
+    print("-------------")
+    print("Vehicle: '{}'".format(vehicle))
+    print("Manufacturer: '{}'".format(producer))
+    print("-------------")
+
 
 
 
